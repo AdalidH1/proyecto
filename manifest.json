@@ -1,0 +1,16 @@
+{
+    "short_name": "MiApp",
+    "name": "Mi Aplicación Web Completa",
+    "description": "Una aplicación web moderna, rápida y completa que ofrece una experiencia de usuario excepcional.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "scope": "/",
+    "lang": "es",
+    "dir": "ltr",
+    "prefer_related_applications": true,
+    "categories": ["utilities", "productivity", "social"],
+    "orientation": "any"
+  }
+  
