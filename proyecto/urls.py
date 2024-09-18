@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from polls import views
 
 urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
-     path('manifest.json', views.manifest, name='manifest'),
+    path("", views.index),
+    path('manifest.json', views.manifest, name='manifest'),
 ]
